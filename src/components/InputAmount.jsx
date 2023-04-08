@@ -3,7 +3,7 @@ import React from 'react'
 
 const InputAmount = () => {
   return (
-    <Grid item>
+    <Grid item xs={12}>
         <TextField
         label="Amount"
         fullWidth
