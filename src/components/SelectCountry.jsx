@@ -3,7 +3,7 @@ import React from 'react'
 
 const SelectCountry = () => {
   return (
-    <Grid item xs={12}>
+    <Grid item xs={12} md={3}>
       <Autocomplete
       value="option1"
       options={["option1", "option2"]}
